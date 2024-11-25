@@ -2,12 +2,11 @@ import React, { useEffect, useState } from "react";
 import "./Navbar.css"
 
 const Navbar = () => {
-  // State to track the background color
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      const festSection = document.getElementById("fest"); // Adjust section ID if needed
+      const festSection = document.getElementById("fest");
       const scrollPosition = window.scrollY;
       const festOffsetTop = festSection?.offsetTop || 0;
 
