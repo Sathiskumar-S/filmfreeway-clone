@@ -1,0 +1,113 @@
+.reviews-bg{
+    height: 90vh;
+    width: 100%;
+    float: left;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+    padding-top: 10px;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.review-title{
+    display: flex;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 4%;
+    padding: 20px 30%;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+.card-container{
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+    margin-top: 15% !important;
+    position: absolute;
+}
+
+.card1{
+    padding: 10px 15px;
+    height: 175px;
+    width: 500px;
+    margin-right: 20px;
+}
+
+.card2{
+    padding: 10px 15px;
+    height: 175px;
+    width: 500px;
+    margin-left: 20px;
+}
+
+.data{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.artist-name{
+    text-align: right;
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.fest-name{
+    text-align: right;
+    color: green;
+    font-weight: 500;
+    font-size: 14px;
+    padding-right: 20px;
+}
+
+.btn-Style{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 45%;
+}
+
+@media (max-width: 576px) {
+    .review-title{
+        font-size: 32px;
+        padding: 20px;
+        margin-top: 25px;
+        font-family: outfit;
+    }
+
+    .card-container{
+        margin-left: 10% !important;
+    }
+
+    .card1{
+        margin-top: 28%;
+        margin-bottom: 25px;
+        height: 150px;
+        width: 300px;
+    }
+
+    .card2{
+        height: 150px;
+        width: 300px;
+        margin-left: 0;
+    }
+
+    .data{
+        font-size: 20px;
+    }
+
+    .artist-name{
+        font-size: 14px;
+    }
+
+    .fest-name{
+        font-size: 12px;
+    }
+
+    .btn-Style{
+        position: absolute;
+        margin-top: 150%;
+        margin-left: 30%;
+    }
+}

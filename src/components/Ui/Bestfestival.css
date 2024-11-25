@@ -1,0 +1,28 @@
+.best-festival-container .best-festival-title {
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: poppins;
+    margin-bottom: 20px !important;
+}
+
+.best-festival-container .best-festival-data {
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-family: poppins;
+}
+
+
+@media (max-width: 576px) {
+    .best-festival-container .best-festival-title{
+    font-size: 30px;
+   }
+
+   .best-festival-container .best-festival-data{
+    font-size: 16px;
+   }
+}

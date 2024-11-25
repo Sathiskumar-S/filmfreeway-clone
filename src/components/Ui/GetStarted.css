@@ -1,0 +1,65 @@
+.getStat-bg {
+    height: 90vh;
+    width: 100%;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+    position: relative;
+}
+
+.getStat-title {
+    padding: 20px 38.8%;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    margin-top: -475px;
+    margin-left: -60px;
+}
+
+.getStat-content {
+    display: flex;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-family: outfit;
+    width: 50%;
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0 auto;
+    color: #fff;
+    padding-top: 0;
+
+}
+
+.getStat-btn {
+    position: relative;
+    left: 45%;
+    margin-top: 40px;
+}
+
+
+@media (max-width: 576px) {
+
+    .getStat-title {
+        margin-top: -700px;
+        font-size: 32px;
+        padding: 20px 8%;
+        margin-left: 15px;
+    }
+
+    .getStat-content {
+        width: 100%;
+        padding: 1%;
+    }
+
+    .getStat-btn {
+        left: 0;
+        margin-left: 35%;
+    }
+
+
+
+
+}

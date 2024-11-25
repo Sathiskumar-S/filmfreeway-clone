@@ -1,0 +1,66 @@
+.footer {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #555;
+    margin-top: 13%;
+    padding-bottom: 0;
+    clear: both;
+    z-index: 1; 
+    position: relative; 
+}
+
+
+.footer-links,
+.footer-policy {
+    margin: 10px 0;
+}
+
+.footer-links a,
+.footer-policy a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-links a:hover,
+.footer-policy a:hover {
+    color: #000;
+}
+
+.footer-social {
+    margin: 10px 0;
+}
+
+.social-icon {
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-size: contain;
+}
+
+.facebook {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg");
+}
+
+.twitter {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg");
+}
+
+.instagram {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png");
+}
+
+.footer-brand {
+    margin-top: 20px;
+    color: #aaa;
+}
+
+@media (max-width: 576px) {
+    .footer {
+        height: 450px;
+    }
+}

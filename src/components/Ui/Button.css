@@ -1,0 +1,19 @@
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer !important;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-bottom: 2rem !important;
+    font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255);
+    --tw-bg-opacity: 1;
+    background-color: #fc5f64;
+    border: none;
+    border-radius: 0.25rem !important;
+}

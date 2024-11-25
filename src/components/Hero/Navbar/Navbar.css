@@ -1,0 +1,12 @@
+.nav-title{
+    font-family: outfit;
+    font-size: 30px !important;
+    font-weight: 500;
+}
+
+.nav-menu-items li a{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+}
