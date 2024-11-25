@@ -7,7 +7,7 @@ import Button from "../Ui/Button"
 const Hero = () => {
   let heroData = {header: "Easy Submitting", content: "The world's #1 way to enter film festivals", content1:"and screenplay contests"};
   return (
-    <div>
+    <div id='hero'>
       <img src={images.hero_background} alt="space man" className="bg-image"/>
       <Navbar />
       <div className='row container hero'>
