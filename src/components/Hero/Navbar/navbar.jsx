@@ -10,7 +10,6 @@ const Navbar = () => {
       const scrollPosition = window.scrollY;
       const festOffsetTop = festSection?.offsetTop || 0;
 
-      // Check if the scroll position is past the "fest" section
       if (scrollPosition >= festOffsetTop - 70) {
         setIsScrolled(true);
       } else {
@@ -18,10 +17,8 @@ const Navbar = () => {
       }
     };
 
-    // Add scroll event listener
     window.addEventListener("scroll", handleScroll);
 
-    // Clean up event listener on component unmount
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
